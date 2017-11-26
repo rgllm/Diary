@@ -4,13 +4,13 @@ require_once("./kernel/classes.php");
 class motor {
 	private $connection=NULL;
 	const mysql_host="localhost";
-	const mysql_user="rglmnet_geral";
-	const mysql_password="aulas123";
-	const mysql_db="rglmnet_diary";
+	const mysql_user="your_user";
+	const mysql_password="your_password";
+	const mysql_db="your_db";
 
 	const sitename="Diary";
-	const siteemail="info@diary.com";
-	const siteurl="http://serestudante.com/diary/";
+	const siteemail="your_email";
+	const siteurl="your_url";
 
 // <Constructor>
 	public function __construct($verify_authenticated) {
